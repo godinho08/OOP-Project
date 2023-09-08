@@ -1,0 +1,276 @@
+Input parameters:
+		   10	 : number of nodes in the graph
+		   1	 : the nest node
+		   2.0	 : alpha, ant move event
+		   0.5	 : beta, ant move event
+		   0.8	 : delta, ant move event
+		   0.2	 : eta, pheromone evaporation event
+		   0.9	 : rho, pheromone evaporation event
+		   1.2	 : pheromone level
+		   20	 : ant colony size
+		   1000.0 : final instant
+
+Graph:
+	 0 5 0 0 3 0 0 3 0 6 
+	 5 0 4 0 0 2 0 0 0 1 
+	 0 4 0 3 0 2 0 0 0 0 
+	 0 0 3 0 3 0 0 0 0 0 
+	 3 0 0 3 0 6 3 0 0 0 
+	 0 2 2 0 6 0 2 0 0 0 
+	 0 0 0 0 3 2 0 7 0 6 
+	 3 0 0 0 0 0 7 0 4 0 
+	 0 0 0 0 0 0 0 4 0 5 
+	 6 1 0 0 0 0 6 0 5 0 
+
+Observation 1:
+	 Present instant: 50.0
+	 Number of move events: 406
+	 Number of evaporation events: 43
+	 Top candidate cycles:
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,2,6,3,4,5,7,10,9,8}:36
+
+Observation 2:
+	 Present instant: 100.0
+	 Number of move events: 757
+	 Number of evaporation events: 58
+	 Top candidate cycles:
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 3:
+	 Present instant: 150.0
+	 Number of move events: 1105
+	 Number of evaporation events: 128
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 4:
+	 Present instant: 200.0
+	 Number of move events: 1479
+	 Number of evaporation events: 195
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 5:
+	 Present instant: 250.0
+	 Number of move events: 1875
+	 Number of evaporation events: 216
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 6:
+	 Present instant: 300.0
+	 Number of move events: 2276
+	 Number of evaporation events: 288
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 7:
+	 Present instant: 350.0
+	 Number of move events: 2674
+	 Number of evaporation events: 301
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 8:
+	 Present instant: 400.0
+	 Number of move events: 3052
+	 Number of evaporation events: 351
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 9:
+	 Present instant: 450.0
+	 Number of move events: 3422
+	 Number of evaporation events: 351
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+		{1,10,9,8,7,6,2,3,4,5}:39
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 10:
+	 Present instant: 500.0
+	 Number of move events: 3816
+	 Number of evaporation events: 452
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 11:
+	 Present instant: 550.0
+	 Number of move events: 4188
+	 Number of evaporation events: 458
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 12:
+	 Present instant: 600.0
+	 Number of move events: 4592
+	 Number of evaporation events: 490
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 13:
+	 Present instant: 650.0
+	 Number of move events: 4974
+	 Number of evaporation events: 569
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 14:
+	 Present instant: 700.0
+	 Number of move events: 5353
+	 Number of evaporation events: 619
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 15:
+	 Present instant: 750.0
+	 Number of move events: 5725
+	 Number of evaporation events: 637
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 16:
+	 Present instant: 800.0
+	 Number of move events: 6139
+	 Number of evaporation events: 694
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 17:
+	 Present instant: 850.0
+	 Number of move events: 6499
+	 Number of evaporation events: 797
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 18:
+	 Present instant: 900.0
+	 Number of move events: 6879
+	 Number of evaporation events: 824
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 19:
+	 Present instant: 950.0
+	 Number of move events: 7270
+	 Number of evaporation events: 851
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
+Observation 20:
+	 Present instant: 1000.0
+	 Number of move events: 7656
+	 Number of evaporation events: 878
+	 Top candidate cycles:
+		{1,5,4,3,2,6,7,10,9,8}:35
+		{1,8,9,10,7,6,2,3,4,5}:35
+		{1,2,10,9,8,7,6,3,4,5}:35
+		{1,2,6,3,4,5,7,10,9,8}:36
+		{1,8,9,10,7,5,4,3,6,2}:36
+	 Best Hamiltonian cycle:
+		{1,5,4,3,6,7,8,9,10,2}:35
+
